@@ -31,7 +31,7 @@ fun DetailView(navController: NavController, id: Int, opcional: String?) {
             TopAppBar(
                 title = { TitleBar(name = "Detail view") },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
-                    containerColor = Color.Blue
+                    containerColor = Color.Yellow
                 ),
                 navigationIcon = {
                     MainIconButton(icon = Icons.Default.ArrowBack) {
